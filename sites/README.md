@@ -6,9 +6,11 @@ To create a new `Site` deployment, add a file such as this to the `deployments` 
 apiVersion: deploy.ethzero.cloud/v1
 kind: Site
 metadata:
-  name: atl-bldg-1
+  name: sdf-bldg-1
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=true
 spec:
-  clusterName: atl-bldg-1
+  clusterName: sdf-bldg-1
   nodeImage: Ubuntu 20.04
   numMasters: 1
   numWorkers: 0

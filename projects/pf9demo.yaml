@@ -37,7 +37,7 @@ spec:
   - git:
       files:
       - path: apps/**/pf9demo/config.json
-      repoURL: https://github.com/jeremymv2/argoautopilot.git
+      repoURL: https://github.com/Platform9-Community/argoautopilot.git
       requeueAfterSeconds: 20
       revision: ""
       template:
@@ -50,7 +50,7 @@ spec:
   - git:
       files:
       - path: apps/**/pf9demo/config_dir.json
-      repoURL: https://github.com/jeremymv2/argoautopilot.git
+      repoURL: https://github.com/Platform9-Community/argoautopilot.git
       requeueAfterSeconds: 20
       revision: ""
       template:

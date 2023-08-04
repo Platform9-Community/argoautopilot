@@ -21,7 +21,7 @@ spec:
   project: default
   source:
     path: projects
-    repoURL: https://github.com/jeremymv2/argoautopilot.git
+    repoURL: https://github.com/Platform9-Community/argoautopilot.git
   syncPolicy:
     automated:
       allowEmpty: true

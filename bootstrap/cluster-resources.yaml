@@ -11,7 +11,7 @@ spec:
   - git:
       files:
       - path: bootstrap/cluster-resources/*.json
-      repoURL: https://github.com/jeremymv2/argoautopilot.git
+      repoURL: https://github.com/Platform9-Community/argoautopilot.git
       requeueAfterSeconds: 20
       revision: ""
       template:
@@ -41,7 +41,7 @@ spec:
       project: default
       source:
         path: bootstrap/cluster-resources/{{name}}
-        repoURL: https://github.com/jeremymv2/argoautopilot.git
+        repoURL: https://github.com/Platform9-Community/argoautopilot.git
       syncPolicy:
         automated:
           allowEmpty: true

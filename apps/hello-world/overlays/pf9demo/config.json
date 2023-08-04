@@ -4,7 +4,7 @@
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/hello-world/overlays/pf9demo",
-  "srcRepoURL": "https://github.com/jeremymv2/argoautopilot.git",
+  "srcRepoURL": "https://github.com/Platform9-Community/argoautopilot.git",
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null
