@@ -15,4 +15,5 @@ spec:
   numMasters: 1
   numWorkers: 0
   runWorkloadOnMasters: true
+  repoPath: bootstrap/
 ```
