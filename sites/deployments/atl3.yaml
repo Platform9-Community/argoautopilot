@@ -1,0 +1,13 @@
+apiVersion: deploy.ethzero.cloud/v1
+kind: Site
+metadata:
+  name: atl3
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=true
+spec:
+  clusterName: atl3
+  nodeImage: Ubuntu 20.04
+  numMasters: 1
+  numWorkers: 0
+  runWorkloadOnMasters: true
+  repoPath: bootstrap/
