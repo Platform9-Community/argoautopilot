@@ -8,6 +8,6 @@ spec:
   clusterName: dfw1
   nodeImage: Ubuntu 20.04
   numMasters: 1
-  numWorkers: 1
+  numWorkers: 2
   runWorkloadOnMasters: true
   repoPath: bootstrap/
