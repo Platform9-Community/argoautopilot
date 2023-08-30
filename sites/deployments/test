@@ -1,0 +1,13 @@
+apiVersion: deploy.ethzero.cloud/v1
+kind: Site
+metadata:
+  name: test-deploy
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=true
+spec:
+  clusterName: test-deploy
+  nodeImage: Ubuntu 20.04
+  numMasters: 1
+  numWorkers: 0
+  runWorkloadOnMasters: true
+  repoPath: bootstrap/
