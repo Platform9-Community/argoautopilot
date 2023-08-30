@@ -1,11 +1,11 @@
 apiVersion: deploy.ethzero.cloud/v1
 kind: Site
 metadata:
-  name: wm-site01
+  name: world-mobile-01
   annotations:
     argocd.argoproj.io/sync-options: Prune=true
 spec:
-  clusterName: wm-site01
+  clusterName: world-mobile-01
   nodeImage: Ubuntu 20.04
   numMasters: 1
   numWorkers: 0
