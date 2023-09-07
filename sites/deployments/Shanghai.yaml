@@ -1,7 +1,7 @@
 apiVersion: deploy.ethzero.cloud/v1
 kind: Site
 metadata:
-  name: rs-cluster-01
+  name: Shanghai
   annotations:
     argocd.argoproj.io/sync-options: Prune=true
 spec:
